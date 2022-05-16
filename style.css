@@ -118,17 +118,14 @@ img {
 
 /* information section here */
 
-
-
-
 .main-info {
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 910px;
-    height: 328px;
+    height: 428px;
 }
 
 .info-title {
