@@ -86,18 +86,12 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
-
-.intro-button {
-    background-color: #3882F6;
-    color: #f9faf8;
-    font-weight: bold;
-    border-radius: 10%;
-    border: 1px  solid #3882F6;
-    padding: 6px 24px; 
-    cursor: pointer;
-}
-
-/* hacky way to fit image in a page */
+.main-quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+} 
 
 .image {
     justify-content: flex-start;
@@ -105,6 +99,7 @@ a {
 }
 
 .img-container {
+    margin-left: auto;
     height: inherit;
     width: 375px;
     border-radius: 25%;
@@ -164,4 +159,33 @@ img {
     text-align: center;
     font-size: 16px;
     color: #1f2937;
+}
+
+/* quote section here */
+.main-quote-container {
+    background-color: #e5e7eb;
+    height: 428px;
+    display: flex;
+}
+
+.main-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.quote-container {
+    height: fit-content;
+    max-width: 800px;
+}
+
+.credit-container {
+    height: fit-content;
+}
+
+.quote {
+
+}
+
+.credit {
+
 }
