@@ -116,11 +116,19 @@ img {
     height: 630px;
 }
 
+/* information section here */
+
+
+
+
 .main-info {
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    height: 428px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 910px;
+    height: 328px;
 }
 
 .info-title {
@@ -134,26 +142,28 @@ img {
 }
 
 .card-container {
+    width: 900px;
     display: flex;
-    gap: 72px;
+    justify-content: space-evenly;
     padding: 4px;
 }
 
 .card {
+    padding: 4px;
     display: flex;
     flex-direction: column;
-
-    width: 150px;
+    align-items: center;
 }
 
 .card-image {
     border: 2px solid #3882F6;
     border-radius: 25%;
-    width: inherit;
+    width: 150px;
     height: 150px;
 }
 
 .card-text {
+    width: 150px;
     text-align: center;
     font-size: 16px;
     color: #1f2937;
