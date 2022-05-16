@@ -86,12 +86,16 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
-.main-quote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 428px;
-} 
+
+.intro-button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 10%;
+    border: 1px  solid #3882F6;
+    padding: 6px 24px; 
+    cursor: pointer;
+}
 
 .image {
     justify-content: flex-start;
@@ -112,6 +116,13 @@ img {
 }
 
 /* information section here */
+
+.main-quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+} 
 
 .main-info {
     margin: 0 auto;
@@ -134,6 +145,7 @@ img {
 }
 
 .card-container {
+    margin-bottom: 100%;
     width: 900px;
     display: flex;
     justify-content: space-evenly;
@@ -164,7 +176,7 @@ img {
 /* quote section here */
 .main-quote-container {
     background-color: #e5e7eb;
-    height: 428px;
+    height: 350px;
     display: flex;
 }
 
@@ -176,16 +188,15 @@ img {
 .quote-container {
     height: fit-content;
     max-width: 800px;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .credit-container {
     height: fit-content;
-}
-
-.quote {
-
-}
-
-.credit {
-
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
 }
