@@ -176,6 +176,7 @@ img {
 
 /* quote section here */
 .main-quote-container {
+    min-width: 400px;
     background-color: #e5e7eb;
     height: 350px;
     display: flex;
@@ -203,8 +204,10 @@ img {
     font-weight: bold;
 }
 
+/* action section here*/
+
 .main-action-container {
-    height: 260px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,8 +229,8 @@ img {
     font-size: 18px;
 }
 
-/* gives color to all action items */
-.action-title, .action-sub{
+/* gives white color to the follwing elements */
+.action-title, .action-sub, .footer{
     color: #f9faf8;
 }
 
@@ -242,5 +245,19 @@ img {
 
 .action-button {
     border: 2px solid;
+}
+
+/*copyright section here*/
+
+.main-footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937
+}
+
+.footer {
+    font-size: 18px;
 }
 
